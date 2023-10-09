@@ -1,0 +1,130 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(landingbg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+img {
+    height: 60px;
+    width: 70px;
+    position: absolute;
+    top: 16px;
+    left: 50px;
+    border-radius: 10px;
+}
+
+.searchbox {
+    border: none;
+    position: absolute;
+    top: 64px;
+    left: 970px;
+    border-radius: 2px;
+    opacity: 0.9;
+    color: black;
+}
+.searchbox input{
+    height: 18px;
+    width: 180px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.searchbox button{
+    height: 25px;
+    width: 70px;
+    color: white;
+    background-color: rgb(74, 3, 74);
+    border: none;
+}
+.searchbox button:hover{
+    cursor: pointer;
+    font-weight:600;
+    color: rgb(23, 1, 23);
+    background-color: rgb(181, 137, 181);
+}
+
+.container {
+    color: white;
+    padding: 0px;
+    display: inline;
+    position: absolute;
+    left: 760px;
+}
+
+.container ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.container ul li {
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    font-size: 19px;
+}
+
+.container ul li:hover {
+    color: rgb(23, 1, 23);
+    background-color: white;
+    padding-top: 4px;
+    height: 15px;
+    opacity: 0.7;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.container ul li.active{
+    text-decoration: underline   rgb(23, 1, 23);
+    color: rgb(23, 1, 23);
+    background-color: white;
+    padding-top: 4px;
+    height: 15px;
+    opacity: 0.7;
+    border-radius: 6px;
+}
+.center{
+    display: block;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 150px;
+    left: 160px;
+    color: white;
+}
+.center h1{
+    color: white;
+    margin: auto;
+}
+.center p{
+    font-size: 19px;
+    font-family: serif;
+   
+}
+.learn{
+    height: 30px;
+    width: 120px;
+    color: white;
+    background-color: rgb(106, 14, 106);
+    border: none;
+    opacity: 0.9;
+    border: 2px solid rgb(96, 13, 96);
+    font-size: 15px;
+}
+.learn:hover{
+    border: none;
+    cursor: pointer;
+    font-weight:600;
+    color: rgb(23, 1, 23);
+    background-color: rgb(181, 137, 181);
+}
+.para2{
+    color: white;
+    font-size: 19px;
+    display: block;
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    top: 210px;
+    left: 700px;
+}
